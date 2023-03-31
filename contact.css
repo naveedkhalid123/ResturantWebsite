@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:url('../images/contact.jpg');
+    background-size: cover;
+ 
+}
+
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff ;
+    color: #000;
+    opacity: 0.85;
+    z-index:999 ;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.navbar a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+.Registration-Form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+}
+
+.Registration-Form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform:uppercase;
+    margin: 40px 0;
+    color:black;
+    font-weight: bold;
+}
+
+.Registration-Form p{
+    font-size: 20px;
+    margin: 15px 0;
+    color:black;
+    font-weight: bold;
+}
+
+.Registration-Form input{
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Registration-Form select{
+    font-size: 15px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+} 
+
+ /* .Registration-Form button{ 
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer; 
+}
+
+.Registration-Form button:hover {
+    background-color:red;
+}  
+ */
+
+ .text:focus{
+    outline-color: white;
+ }
+
+ .textarea{
+    width: 50%;
+ }
+
+
+ .button:hover{
+    background-color: black;
+ }
+
+ .button{
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    background-color:black;
+    font-weight: bold;
+    color: white;
+
+
+ }
+
+ textarea{
+    resize: none;
+ }
